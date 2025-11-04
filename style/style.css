@@ -36,8 +36,27 @@
 #great-img{
     margin: auto;
 }
+#z-three{
+    position: relative;
+    top: -70px;
+}
+#z-one{
+    position: relative;
+    top: 150px;
+}
+#z-two{
+    position: relative;
+    right: 40px;
+}
+#z-img{
+    position: relative;
+    top: -40px;
+    right: 40px;
 
-
+}
+#our-btn{
+    margin-top: 12px;
+}
 
 
 
@@ -114,5 +133,30 @@
         position: relative;
         left: -1px;
         margin-top: 50px;
+    }
+    /* our c */
+    #our-container{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+     #z-one, #z-three{
+        width: 90%;
+        margin: auto;
+        position: relative;
+        left: 4px;
+    }
+    #z-two{
+        width: 90%;
+        position: relative;
+        left: 2px;
+    }
+    #our-dspt{
+        width: 100%;
+    }
+    #our-client{
+        padding-top: 40px;
+    }
+    #our-text{
+        font-size: 25px;
     }
 }

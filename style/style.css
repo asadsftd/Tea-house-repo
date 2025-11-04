@@ -32,7 +32,10 @@
 #img-dspt{
     color:#1e1919;
 }
-
+/* Great  */
+#great-img{
+    margin: auto;
+}
 
 
 
@@ -94,5 +97,20 @@
         width: 80%;
         margin: auto;
         text-align: center;
+    }
+    /* great */
+    #great-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #content-two-text{
+        font-size: 20px;
+    }
+    #content-text-two{
+        font-size: 22px;
+    }
+    #great-content-two{
+        position: relative;
+        left: -1px;
+        margin-top: 50px;
     }
 }

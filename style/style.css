@@ -1,0 +1,53 @@
+/* Google Fonts */
+
+
+#manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width:576px)  {
+    /* Banner  */
+    #banner-container{
+        flex-direction: column-reverse;
+        
+    }
+    #banner-title{
+        font-size: 25px;
+        width: 100%;
+    }
+    #banner-content-one{
+        margin-top: 100px;
+    }
+    #rating-container{
+        position: relative;
+        top: -100px;
+        right: 10px;
+        
+    }
+    #rating-star{
+        font-size: 20px;
+        position: relative;
+        top: -0.5px;
+
+    }
+    #rating-text{
+        font-size: 20px;
+    }
+    #rating-dspt{
+        font-size: 12px;
+        width: 100%;
+    }
+    #btn{
+        font-size: 18px;
+    }
+}

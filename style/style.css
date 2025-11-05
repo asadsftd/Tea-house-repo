@@ -57,11 +57,34 @@
 #our-btn{
     margin-top: 12px;
 }
-
+/* news */
+#h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+#news-container p{
+    width: 85%;
+}
+#news-card{
+    border: 2px solid rgb(200, 198, 198);
+    padding: 15px ;
+    border-radius: 12px;
+}
+#news-btn{
+    border: none;
+    background-color: rgb(9, 9, 9);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
 
 
 /* Responsive */
 @media screen and (max-width:576px)  {
+    main{
+        width: 90%;
+        margin: auto;
+    }
     /* Banner  */
     #banner-container{
         flex-direction: column-reverse;
@@ -184,8 +207,24 @@ left: 10px;
     #our-text{
         font-size: 25px;
     }
+    #our-btn{
+        font-size: 20px;
+    }
     #our-card-one{
         position: relative;
         top: -100px;
+    }
+    /* news */
+    #news-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #news-img{
+        width: 100%;
+    }
+    #h3{
+        font-size: 20px;
+    }
+    #news-title{
+        font-size: 25px;
     }
 }

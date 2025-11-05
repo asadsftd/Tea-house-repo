@@ -147,14 +147,25 @@
         width: 90%;
         margin: auto;
         position: relative;
-        left: 4px;
+        
+    }
+    #z-one{
+        margin-top: -15px;
     }
     #z-two, #z-one, #z-three{
         width: 90%;
-        position: relative;
-        left: 2px;
-        height: 200px;
         
+       
+        
+    }
+    #z-three{
+margin-top: 90px;
+
+    }
+    #z-two{
+        margin-top: 160px;
+        position: relative;
+left: 10px;
     }
     #z-dspt{
         position: relative;

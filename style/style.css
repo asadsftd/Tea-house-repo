@@ -177,18 +177,19 @@
     }
     #z-two, #z-one, #z-three{
         width: 90%;
-        
-       
-        
+     
+    }
+    #our-client{
+        height: auto;
     }
     #z-three{
-margin-top: 90px;
+      margin-top: -50px;
 
     }
     #z-two{
-        margin-top: 160px;
+        /* margin-top: 160px; */
         position: relative;
-left: 10px;
+       left: 10px;
     }
     #z-dspt{
         position: relative;
@@ -226,5 +227,16 @@ left: 10px;
     }
     #news-title{
         font-size: 25px;
+    }
+    /* footer  */
+    footer{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #two-container{
+        flex-direction: column;
+    }
+    #hide{
+        display: none;
     }
 }

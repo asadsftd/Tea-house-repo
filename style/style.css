@@ -136,8 +136,12 @@
     }
     /* our c */
     #our-container{
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
         
+    }
+    #our-card-two{
+        position: relative;
+        top: -100px;
     }
      #z-one, #z-three{
         width: 90%;
@@ -145,10 +149,20 @@
         position: relative;
         left: 4px;
     }
-    #z-two{
+    #z-two, #z-one, #z-three{
         width: 90%;
         position: relative;
         left: 2px;
+        height: 200px;
+        
+    }
+    #z-dspt{
+        position: relative;
+        top: -40px;
+    }
+    #z-dspt-two{
+        position: relative;
+        top: -40px;
     }
     #our-dspt{
         width: 100%;
@@ -158,5 +172,9 @@
     }
     #our-text{
         font-size: 25px;
+    }
+    #our-card-one{
+        position: relative;
+        top: -100px;
     }
 }
